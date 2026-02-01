@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="p:domain_verify" content="b665fec8f44b874aa3b27aa59aa9e76f"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Flower Boutique</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            margin: 0;
+            background-color: #eaeded;
+            color: #0f1111;
+        }
+
+        /* Header Navigation */
+        header {
+            background-color: #131921;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+            color: #febd69;
+            margin-right: 20px;
+            text-decoration: none;
+        }
+
+        .search-bar {
+            flex-grow: 1;
+            display: flex;
+        }
+
+        .search-bar input {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 4px 0 0 4px;
+        }
+
+        /* Top Featured Product Section */
+        .featured-product {
+            max-width: 1200px;
+            margin: 20px auto;
+            background: white;
+            display: flex;
+            padding: 30px;
+            gap: 40px;
+            border-radius: 4px;
+        }
+
+        .featured-image img {
+            max-width: 400px;
+            max-height: 400px;
+            object-fit: contain;
+        }
+
+        .featured-details {
+            flex: 1;
+        }
+
+        /* The Purchase Buttons */
+        .buy-box {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            width: 260px;
+            background-color: #fff;
+        }
+
+        .amazon-link {
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #0f1111;
+            border: 1px solid;
+        }
+
+        .btn-cart {
+            background: #ffd814;
+            border-color: #fcd200;
+        }
+
+        .btn-cart:hover { background: #f7ca00; }
+
+        .btn-buy {
+            background: #ffa41c;
+            border-color: #ff8f00;
+        }
+
+        .btn-buy:hover { background: #fa8900; }
+
+        /* Grid Section */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: contain;
+        }
+
+        .price {
+            font-size: 20px;
+            font-weight: bold;
+            color: #B12704;
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- <header>
+    <a href="#" class="logo">Flowers</a>
+    <div class="search-bar">
+        <input type="text" placeholder="Search Pipe Cleaner Flowers...">
+    </div>
+</header>
+
+<main>
+    <section class="featured-product">
+        <div class="featured-image">
+            <img src="https://m.media-amazon.com/images/I/718JboDfAjL._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Flower Bouquet">
+        </div>
+        <div class="featured-details">
+            <h1>Peryiter 1402 Pcs Pipe Cleaners Flowers Set 1000 Pcs 10 Colored</h1>
+            <p style="color: #007185;">Abundant and Diverse Supplies: you'll get 1000 pipe cleaners in 10 colors, 50 green flower rods, 350 light yellow flower cores, and 2 roll of green floral tape; This comprehensive set offers all you need for various crafting projects, from making delicate flowers to fun animal shapes</p>
+              <div class="buy-box">
+                <a href="https://amzn.to/3Z2JoeX" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div>
+        </div>
+    </section> -->
+
+
+<!-- 
+    <div class="container">
+        <h2>More Results</h2>
+        <div class="grid"> -->
+                        <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/81Jk7dWdCJL._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>Upgraded 2026 Pipe Cleaners Craft Kit</h3>
+                <p>This pipe cleaners set includes 400 chenille stems (300 assorted pink pipe cleaners + 100 green pipe cleaners), 20 floral wire stems, 100 stamens, 2 hot glue sticks, 1 roll of ribbon, 2 rolls of floral tape and 1 instruction</p>
+                <a href="https://amzn.to/46aO7iv" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/51INfV-D6fL._SX342_SY445_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>300 PCS Pipe Cleaners, Multi-Color Chenille Stems</h3>
+                <p>Package includes 300 pcs pipe cleaners, the diameter is about 6 mm/0.2 in and length is about 30 cm/12 in, sufficient quantity to meet your various DIY hand-made needs, helping you to easily realize creative design</p>
+                <a href="https://amzn.to/4q64V1f" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div > -->
+                       <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/715Cm-V7SdL._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>HUEYTON Tulip Pipe Cleaners DIY Kit </h3>
+                <p>This DIY sunflower bouquet kit includes all the crafting accessories needed: 260 pipe cleaners in different colors, 20 floral wires, 11 hot glue sticks, 2 rolls of adhesive tape and video tutorials</p>
+                <a href="https://amzn.to/3M8NfnS" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+
+                                   <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/71WmWfQAXXL._AC_SL1500_.jpg" alt="Sunflower">
+                <h3>
+ASTNIC Crochet Flower Bouquet Completed Pipe Cleaners Tulip Flowers Bouquet </h3>
+                <p>This handcrafted 10-piece pink tulip bouquet is an elegant, "everlasting" alternative to real flowers, measuring a perfectly balanced 14.6" H x 14.2" W. Each tulip is meticulously handmade from high-quality, non-toxic pipe cleaners, ensuring a soft texture and a flexible design that allows you to customize the flower shapes to your liking. Designed to never fade or wither, this vibrant bouquet serves as both a unique gift—complete with a greeting card—and a versatile home decor piece that adds a touch of warmth to any room. Safe, durable, and uniquely artistic, it captures the beauty of nature in a form that lasts forever.</p>
+                <a href="https://amzn.to/4q8qhuW" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                         <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/51Fo-ShUNmL._AC_SX300_SY300_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>200 PCS Pipecleaners, Supplies for Arts and Decorations</h3>
+                <p>there are 200 pcs multicolored pipecleaners in every pack, which can meet the need of most pipe cleaner craft, the multicolor may offer more ideas, the best choice for making favorable pipe cleaners craft</p>
+                <a href="https://amzn.to/4blhceP" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/71ndg3s39+L._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>500 PCS Pipe Cleaners Craft Kit for Flower</h3>
+                <p> This kit includes thick, nylon-coated steel wire that offers exceptional durability. The bendable yet unbreakable pipe cleaners are perfect for creating various flower crafts, making it an essential addition to your crafting supplies.</p>
+                <a href="https://amzn.to/3NHT1gP" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/712jlKyLzVL._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>Creative Crafts Pipe Cleaners</h3>
+                <p>Vibrant 7-Color Pack for Endless Creativity Unleash your imagination with 100 pieces of cleaners in 7 gorgeous candy colors! Perfect for DIY crafts, floral decorations, or fun classroom projects.</p>
+                <a href="https://amzn.to/4t3uJhq" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/71zC-1mlLBL._AC_SX679_.jpg" alt="Sunflower">
+                <h3>Pipe Cleaners,DIY Flower Bouquet</h3>
+                <p>700-piece set includes 320 orange, 330 green, and 50 brown pipe cleaners (11.81 inches each), plus crafting tools for creating beautiful sunflower bouquets</p>
+                <a href="https://amzn.to/4amn5q3" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/91w-KjAUjBL._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>Quaystars 400Pcs Pipe Cleaners Ombre Crafts</h3>
+                <p>Includes all components for tulip bouquets:300 pink pipe cleaners,100 green pipe cleaners,20 floral wires,1 ribbon roll,2 floral tape rolls,2 red chalk markers,video guide and manual.dimensions 0.24 inch*12 inch</p>
+                <a href="https://amzn.to/49M7HnO" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/71gm8z-YsZL._SX522_.jpg" alt="Sunflower">
+                <h3>Green Color Trio Pipe Cleaner Set</h3>
+                <p>This set of 300 green pipe cleaners in Spring Green, Fern Green, and Dark Moss hues brings the serenity of forests and meadows to your crafts.</p>
+                <a href="" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/51E+0WNUl5L._SX342_SY445_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>Pipe Cleaners Bulk for Valentine's Day Decor</h3>
+                <p>A total of 2600 pieces pipe cleaners(6 mm x 12 Inch), with 40 colors, and 100 pieces wiggle eyes. A large quantity can meet the needs of large handicraft projects</p>
+                <a href="https://amzn.to/4a06J5Y" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/71hKB5KwitL._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3> 500 pcs Pipe Cleaners Craft for Flowers</h3>
+                <p>This all-in-one pipe cleaners flower making kit includes 500 colorful chenille stems in Hot Pink,Light Pink,Nude,Pale Pink,and Green,2 glue sticks,25 floral wires,2 floral tapes, 100 realistic stamens, 1 roll of ribbon.</p>
+                <a href="https://amzn.to/3NA37Ap" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/71MGQlwinnL._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>Pipe Cleaners, 100Pcs Creative Crafting</h3>
+                <p>100 Pcs of chenille stems pipe cleaners, meet your crafting needs, you can make it into many lovely and beautiful handicrafts. Come and make various beautiful decorations crafts for halloween, Christmas party</p>
+                <a href="https://amzn.to/46epqBO" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/71TEhoD-dnL._AC_SX679_.jpg" alt="Sunflower">
+                <h3>400-Pcs Pipe Cleaners Craft Kit</h3>
+                <p>This pipe cleaners bulk includes all crafting accessories for tulip bouquets: 100 purple pipe cleaners+100 green pipe cleaners+100 blue pipe cleaners+50 pink pipe cleaners+50 light blue pipe cleaners, 20 Floral wires, stamen, 2 glue stick,1 ribbon and 2 gardening tape</p>
+                <a href="https://amzn.to/4qNjok7" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                                    <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/81QnJeF1joL._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>500 Pcs Thick Pipe Cleaners for DIY Flowers & Crafts</h3>
+                <p>This chenille stem flower craft kit contains 500 pieces of pipe cleaners in 5 colors, 100 pieces of each color, flower rods X20, floral tape X2, white flower centers X1, tape measure X1, glue guns X1, hot melt glue sticks X10, approx. 8mm in diameter and 12 inches in length, to energize your creations and meet your needs</p>
+                <a href="https://amzn.to/4k3dmsP" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                                    <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/71sQX9DxCeL._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Sunflower">
+               <h3>Pipe Cleaners Craft Bouquets Making Kit Includes Floral Stems,</h3>
+                <p>This flower making kit includes 100 floral wire, 30 glue sticks, 6 floral tapes of different colors, hot glue gun, needle-nose pliers, short-nose hand pliers, curved-tip craft scissors, 15-color eyeshadow palette, eyeshadow brush, one 10mm wooden stick and one 8mm wooden stick, and 720 artificial flower stamens. Perfect for all your crafting and floral projects</p>
+                <a href="https://amzn.to/45zbq5y" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                                    <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/51dE6MbtiWL._SX342_SY445_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>430Pcs Pipe Cleaners for Flowers</h3>
+                <p>This Craft Pipe Cleaners Set includes 400pcs pipe cleaners in 7 colors such as red, purple, pink, blue, and green, 20 floral stems, 2 rubber sticks, 1 Hot Melt Gun, 3 wrapping papers, 1 gift ribbon, 1 scissors, 1 bag pearls and 1 detailed instruction with pictures</p>
+                <a href="https://amzn.to/4jYejCI" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                                    <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/711qVPnHRBL._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>300 Pieces Pipe Cleaners Flower Kit</h3>
+                <p>Our 300PCS Tulip Set includes everything you need to create lasting floral beauty: 100 green, 100 pink and 100 light pink pipe cleaners, 20 flower stems, floral tape, decorative ribbon, and elegant wrapping paper. This all-inclusive kit ensures a seamless crafting experience for both beginners and seasoned DIY enthusiasts</p>
+                <a href="https://amzn.to/4r8G1is" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                                    <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/912AhKsfoQL._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>800pcs Pipe Cleaners Crafts Kit</h3>
+                <p> Includes 600 vibrant chenille stems in 30 assorted colors (0.24 inches x 12 inches), plus a pair of scissors, a ruler, 100 self-adhesive wiggle googly eyes in various sizes, 100 colorful pony beads, a step-by-step instruction guide with 20 projects, and a cute gift box</p>
+                <a href="https://amzn.to/4rbr3Za" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                                    <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/81Qb9VZDqmL._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>AZEAM 630 Pcs Pipe Cleaner Craft</h3>
+                <p>This set includes 500 colorful pipecleaners in vibrant shades (100 pcs per color), plus 4 dual-color wrapping paper, 20 floral wires, 100 stamens,1 pack of mini pearls, ribbon, 2 adhesive tape (light green and green), and 2 hot glue sticks. </p>
+                <a href="https://amzn.to/4k2VeiJ" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                                    <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/71pgBTV0NOL._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>LOLEDE Pipe Cleaners Craft Flowers Kit 400 Pcs</h3>
+                <p>This set includes 400 pipe cleaners+20 green floral stems+2 rolls of green floral tape+1 roll of gift ribbon+ 1Pack of Pearls +1 set of flower-making instructions. 【 400 pipe cleaners 3 Colors includes 200 light pink pipe cleaners+100 pink pipe cleaners+100 green pipe cleaners】</p>
+                <a href="https://amzn.to/3ZAeQBv" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                                    <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/715wnyrVoJL._SL1500_.jpg" alt="Sunflower">
+                <h3>216 pcs Red Pipe Cleaners Set with Floral Wires & Gardening Tape</h3>
+                <p>The 216-piece set of blue green pipe cleaners craft supplies in 4 colors; 50pcs olive green, 50pcs plum, 50pcs red, 50pcs jujube red, 10pcs floral stems, 1 gardening tape, 1 lucky greeting card, etc. Their color are vibrant and won’t fade away</p>
+                <a href="https://amzn.to/4rey0bT" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                                    <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/71nvG0sgX0L._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>600 Pcs Pipe Cleaners Craft for Flowers</h3>
+                <p> This value-packed set includes 600 pipe cleaners in 6 popular colors (100pcs per color), perfectly meeting all your creative crafting needs. The specially selected color combinations are ideal for creating stunning artworks, handmade floral arrangements, and eye-catching decorations</p>
+                <a href="https://amzn.to/3ZAjHTf" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                                    <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/71eomhFjmaL._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>NafuXiaJJia Vintage Pipe Cleaner Kit with 200 Pcs</h3>
+                <p>The diy kit contains all craft supplies to making bouquet - 100 skin color pipecleaners + 50 light brown pipecleaners+50 dark coffee pipecleaners,10 flower wire,40 Pearls,40 Stamen,green tape,flower paper,ribbon.</p>
+                <a href="https://amzn.to/45zJjDd" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                                    <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/71IyJo4oXYL._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>Pipe Cleaners Craft kit</h3>
+                <p>A beginner's kit with step-by-step video tutorials, scan the QR code in the instruction manual that comes with the kit. By watching tutorial videos, you will master basic DIY production skills. Beginners can easily follow the steps and create cute dolls, which are popular among handicraft enthusiasts</p>
+                <a href="https://amzn.to/49Yw402" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                                    <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/41xpb4xAgXL._SX342_SY445_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>Pink Color Trio Pipe Cleaner Set</h3>
+                <p>
+Material	Nylon
+Color	Pink
+Brand	HARMOSO
+Finish Type	Unfinished
+Item Weight	0.29 Kilograms</p>
+                <a href="https://amzn.to/4k0Gzox" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                                    <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/71mDkJ+B4SS._AC_SX679_.jpg" alt="Sunflower">
+                <h3>Zen Bundles Zen Pipe Cleaners Hard Bristle,</h3>
+                <p>Zen the name you know & can trust for all your cleaning needs & 420 help
+Clean & repair old antique tube radios, t.V.'S, ham radios / receivers (especially from 1918-1965)
+Such as philco, rca, admiral, Zenith, hall crafters, sears, Brewster, crossly, firestone, plus hundreds more</p>
+                <a href="https://amzn.to/4t88Cqc" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                                    <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/51gIfqdeJVL._SX342_SY445_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>400 Pcs Red Pipe Cleaners Craft for Flowers</h3>
+                <p>Our 400-piece pipe cleaner flower arrangement set includes high-quality pipe cleaners in 4 trendy colors, perfect for children and adults who love creating art. It includes 100 green pipe cleaners, 100 deep red pipe cleaners, 100 red pipe cleaners, 100 light redpipe cleaners, 20 flower threads, 100 stamens, 1 roll of ribbon, 2 rolls of tape, and a video tutorial.</p>
+                <a href="https://amzn.to/4sYU3VT" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                                    <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/51l45mAc-IL._SX342_SY445_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>Caydo 4000 Pieces Pipe Cleaners 40 Assorted Colored Chenille Stems </h3>
+                <p>A total of 4000 pieces pipe cleaners(6 mm x 12 Inch), with 40 colors, and 100 pieces wiggle eyes. A large quantity can meet the needs of large handicraft projects</p>
+                <a href="https://amzn.to/4tlmzBl" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                                    <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/8130X0ehM-L._AC_SL1500_.jpg" alt="Sunflower">
+                <h3>
+ZXIIXZ 104 Pcs Pipe Cleaners Craft</h3>
+                <p>Pipe cleaners craft contains 14 pcs extra thick pipe cleaners in 4 different colors, 24 pcs plastic eyes, 2 pairs of 8 mm yellow eyes, 12 pcs noses, 12 pcs different styles of bows in random colors, 14 pcs decorative accessories in various styles, 10 pcs necklace cords and 6 pcs key chains, storage box and other accessories for a total of 104 pcs</p>
+                <a href="https://amzn.to/4q3dGcC" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                                    <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/71i11evJ2-L._AC_SL1500_.jpg" alt="Sunflower">
+                <h3>Pipe Cleaners Craft - Pipe Cleaners Flowers</h3>
+                <p>This is a versatile DIY pipe cleaners flower bouquet kit includes all the necessary accessories and a detailed video tutorial</p>
+                <a href="https://amzn.to/4t8dcoo" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                                    <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/31YYTvW-mhL._SX342_SY445_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>100 Pieces of 6-Inch Conical Pipe Cleaner</h3>
+                <p>The pipe cleaners is made of cotton and Steel Wirehave, good waterabsorption and adsorption properties. Each pipe cleaner for cleaning pipes 6in long pipe cleanerbulk can be used in a variety of pipes, including plastic, metal, and ceramic materials.</p>
+                <a href="https://amzn.to/49KawWh" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                                    <!-- <div class="card">
+                <img src="https://m.media-amazon.com/images/I/71CRIKvYjkL._SL1500_.jpg" alt="Sunflower">
+                <h3>
+200 Pcs Pipe Cleaner Flower kit</h3>
+                <p>Our pipe cleaner flower kit includes premium pipe cleaners bulk (2 colors, 100 each), flower stems, tapes, ribbon, hot glue sticks, and step-by-step guides—so you can skip the hassle of buying separate craft supplies and start crafting stunning bouquets immediately</p>
+                <a href="https://amzn.to/4t2n179" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+<!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/71i7+pz2N7L._SL1500_.jpg" alt="Sunflower">
+                <h3>YYUENGTAK 200 pcs Pipe Cleaner Flowers Craft kit</h3>
+                <p>With illustrated instructions and step-by-step video tutorials, you can easily make three flower types: roses, lilies and lily of the valley, which is very suitable for beginners and DIY enthusiasts.</p>
+                <a href="https://amzn.to/4bsHhst" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+</div> -->
+            <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/81Y3WcATZhL._SX522_.jpg" alt="Sunflower">
+                <h3>500 Pcs Dopamine Colors Pipe Cleaners Flower kit,</h3>
+                <p>Discover our pipe cleaner flower kit with 500 high-quality pipe cleaners in 8 Dopamin colors (Matcha Green，Misty Blue，Pink，White，Blush Pink，Soft Yellow，Pumpkin Yellow，Sunflower Yellow). Perfect for adults and teens to create beautiful pipe cleaner flowers. This craft kit for adults offers endless creative possibilities.</p>
+                <a href="https://amzn.to/4aizagP" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+            <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/81GudZTZZmL._AC_SX679_.jpg" alt="Sunflower">
+                <h3>ERNTRNL Pipe Cleaners Craft</h3>
+                <p>PIPE CLEANER FLOWER KIT FOR BEGINNERS -This is a versatile DIY flower bouquet kit includes all the necessary accessories and a detailed video tutorial. The video covers step-by-step instructions for making roses, sunflowers, tulips, lilies, and lavender, It’s easy to understand and follow and perfect for beginners.</p>
+                <a href="https://amzn.to/4k3LgxP" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+            <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/71KkGbL92fL._AC_SX679_.jpg" alt="Sunflower">
+                <h3>200pcs Gold Pipe Cleaners Bulk Chenille Stems </h3>
+                <p>200Pcs Gold Pipe Cleaners Bulk - Premium Chenille Stems for Holiday Ornaments, Wedding Centerpieces & DIY Jewelry, Thick Metallic</p>
+                <a href="https://amzn.to/3ZGLDop" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+            <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/81rzaI86quL._AC_SX679_.jpg" alt="Sunflower">
+                <h3>Army Green Pipe Cleaners Craft Chenille Stems 200 Pieces</h3>
+                <p> these Army Green pipe cleaners craft are made of metal wire and Army Green fiber, can any twisted, curled or wrapped, plasticity for what you need shapes and also help you clean small pipes.</p>
+                <a href="https://amzn.to/4rcutuD" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+            <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/713LACwkXEL._AC_SX679_.jpg" alt="Sunflower">
+                <h3>YOOTOM 300PCS DIY Crafts Pipe Cleaner </h3>
+                 <a href="https://amzn.to/4tiWHGa" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+                <p>DIY Crafts Pipe Cleaner Little Daisies Flower Bouquets Making Supplies Kits, this is unfinished Little Daisies, all the materail supplies are used for 18 little daisies bouquets making, include 300pcs 6mm Fuzzy Chenille Stems (different color), 18 metal Flower Rods,1 Plants Tape, 3 glue sticks.</p>
+            </div> -->
+            <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/71tCA2HxxlL._AC_SL1400_.jpg" alt="Sunflower">
+                <h3>
+Seravelle Handmade Pipe Cleaner & Crochet Flower Bouquet</h3>
+                <a href="https://amzn.to/3Z2us0A" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+                <p>【Handmade Craftsmanship】Each flower is hand-woven with fluffy Pipe Cleaners, boasting unique texture details and a soft, plush touch</p>
+            </div> -->
+
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/71wca4CkXRL._AC_SL1500_.jpg" alt="Sunflower">
+                <h3>Faylifeway Red Knitted Flower Bouquet: Everlasting Pipe Cleaner Roses with Gift Bag & Card - Perfect Gift for Her & Home Decor</h3>
+ <a href="https://amzn.to/4a943Dq" target="_blank" class="amazon-link btn-buy">Shop Now</a>
+                <p>Faylifeway’s Crochet-Style Bouquet combines artisanal charm with a velvety touch. Each petal is meticulously hand-crafted from ultra-soft, non-toxic chenille stems, creating a stunning 15.3-inch floral arrangement that offers timeless freshness without the need for water or sunlight.</p>
+            </div>
+            -->
+
+
+<!-- 
+            <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/71Lf3Whc2tL._AC_SX679_.jpg" alt="Sunflower">
+                <h3>Crochet Flowers Bouquet, Rose Artificial Flower</h3>
+                <a href="https://amzn.to/4sYYNLb" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+                <p>Eternal Beauty in Every Stitch Gift a bloom that never fades. This exquisite bouquet features hand-knitted roses crafted from premium soft cotton, blending artisanal charm with timeless romance. At a graceful 14 inches tall, it serves as a vibrant, maintenance-free centerpiece for any indoor setting.</p>
+                 </div> -->
+            <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/81QkLq96FQL._AC_SL1500_.jpg" alt="Sunflower">
+                <h3>
+Suncalla 6 Bundle Valentines Day Crochet Flower Bouquet</h3>
+ <a href="https://amzn.to/4q10956" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+                <p>"Everlasting Blooms, Hand-Knitted with Love" Celebrate life’s special moments with a gift that never fades. This all-in-one kit features 6 handcrafted roses, 6 charming puff flowers, and 6 realistic baby’s breath stems, providing everything you need to assemble a professional-quality bouquet</p>
+            </div> -->
+            <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/51wJZNCpZGL._AC_SL1024_.jpg" alt="Sunflower">
+                <h3>Handmade Crochet Rose Bouquet - Eternal Purple Flower Gift</h3>
+                <a href="https://amzn.to/4rg0ke3" target="_blank" class="amazon-link btn-buy">Shop Now</a>
+                <p>Bring home an everlasting bloom with this 100% Hand-Knitted Crochet Bouquet. Expertly crafted from premium milk cotton yarn, this 13.8" bouquet features a stunning mix of roses, daisies, and accent flowers that will never fade.</p>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/71BMFC2rArL._AC_SX679_.jpg" alt="Sunflower">
+                <h3>47-Inch Round Crochet Rose Bouquet Blanket - Romantic Red Gift</h3>
+                 <a href="https://amzn.to/3NEjyeZ" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+                <p>Experience everlasting romance with this 47-inch Round Crochet Rose Blanket. Expertly hand-knitted into an intricate 3D floral design, this ultra-soft throw cleverly transforms into a beautiful "bouquet" when rolled up.</p>
+            </div> -->
+                                    <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/71G402A-UuL._AC_SL1500_.jpg" alt="Sunflower">
+                <h3>Handmade Crochet Bouquet – Pink Cotton Mixed Flowers</h3>
+                 <a href="https://amzn.to/3ZH2O9t" target="_blank" class="amazon-link btn-buy">Buy on Amazon</a>
+                <p>Give a gift that never withers. Our handcrafted crochet bouquets are meticulously stitched from 100% pure cotton thread, offering a soft, delicate texture that is both durable and timeless. Delivered fully assembled and ready to charm, these "forever flowers" are the perfect way to capture a moment</p>
+            </div> -->
+
+                                                <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/71UyzJFQWHL._AC_SL1500_.jpg" alt="Sunflower">
+                <h3>Handmade Crochet Pink Bouquet – Pure Cotton Finished Flowers</h3>
+                 <a href="https://amzn.to/4qa43Je" target="_blank" class="amazon-link btn-buy">Buy on Amazon</a>
+                <p>Handmade with love, woven to last. Our finished bouquets are meticulously hand-crocheted from premium milk cotton thread, offering a soft, velvet-like texture that far outshines standard artificial flowers.</p>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/71EslKb-weL._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>Handmade Crochet Rose Bouquet Blanket </h3>
+                <p>This hand-woven rose blanket（110cm）features a circular rose pattern with delicate knitted rose flowers around the edges. The blanket can be lifted from the center to transform into a stunning rose bouquet, making it a versatile and practical decoration for any occasion.</p>
+                <a href="https://amzn.to/3O7oIjC" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/71o5Bk4STQL._AC_SL1500_.jpg" alt="Sunflower">
+                <h3>Handmade Red Rose Bouquet Blanket</h3>
+                <a href="https://amzn.to/4sYZrs5" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+                <p>Wrap your loved ones in a garden that never fades. This Exquisite Handmade Floral Crochet Blanket features a stunning 3D Rose Design and heirloom-quality craftsmanship that lasts a lifetime. Whether you’re looking for a unique Rose Bouquet Blanket for a wedding or a Ready-to-Gift Floral Blanket for Valentine’s Day, this ultra-soft throw combines practical warmth with an elegant, timeless design. It’s more than a gift; it’s a cherished surprise for any occasion.</p>
+            </div>
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/71shyYFOxzL._AC_SL1308_.jpg" alt="Sunflower">
+                <h3>Handmade Crochet Rose Bouquet Blanket - The Perfect Romantic Gift</h3>
+                 <a href="https://amzn.to/4bVfuRq" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+                <p>Experience the magic of everlasting floral beauty with this exquisite 3D rose bouquet blanket, a masterpiece of meticulous hand-craftsmanship. Featuring lifelike textures and a luxury feel, this innovative design transforms from a cozy throw into a stunning bouquet when rolled up, adding a touch of timeless romance to any room</p>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/71ag13ZhtaL._SL1500_.jpg" alt="Sunflower">
+                <h3>
+DaisyInner 700 Pcs Pipe DIY Cleaners</h3>
+                <p>unleash your creativity with the pipe cleaners for crafting that come in a set of 700, allowing for endless crafting possibilities, they adopt 7 different colors to making bouquet of blue flower, each color has 100, adding bright colors to most craft projects</p>
+                <a href="https://amzn.to/45VNrOf" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/81KSLWM5hpL._AC_SL1500_.jpg" alt="Sunflower">
+                <h3>ESUOHYM 600 PCS Red Pipe Cleaners Craft Bulk</h3>
+                <p>Our bulk pipe cleaner kit includes everything you need to create a stunning flower bouquet: an instruction book, 600 thick pipe cleaners in 5 different tone red, green pipe cleaners</p>
+                <a href="https://amzn.to/3LQbuHt" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/81SKiMG7xIL._AC_SL1500_.jpg" alt="Sunflower">
+                <h3>Caydo 1800 Pieces Pipe Cleaners for Valentine's Day Decor</h3>
+                <p>40 Assorted Colored Chenille Stems for Art and Crafts, Pipe Cleaner Crafts for DIY Art and Craft Projects Creative Gift Party Decorations</p>
+                <a href="https://amzn.to/3ZokNlb" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/81w7mhi+jlL._AC_SL1500_.jpg" alt="Sunflower">
+                <h3>500pcs Colorful Pipe Cleaners Craft Supplies</h3>
+                <p> 500 pieces of vibrant pipe cleaners in 10 eye-catching colors sized 6mm x 12 inhes, perfect for creative DIY arts and crafts projects</p>
+                <a href="https://amzn.to/45E0IL8" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/81oP8hthOmL._AC_SL1500_.jpg" alt="Sunflower">
+                <h3>
+LENYNAL 500 Pcs Pipe Cleaners Craft Bulk</h3>
+                <p>This set comes with 6 vibrant colors and everything you need to craft flowers: 350 pink pipe cleaners in assorted shades, 50 white, 50 green, and 50 yellow, plus 2 floral tapes, 25 stems, 1 roll of elastic cord, 1 ribbon, and 100 flower stamens.</p>
+                <a href="https://amzn.to/4rl1pBj" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/71QMV+fKpAL._AC_SL1500_.jpg" alt="Sunflower">
+                <h3>
+400pcs Pipe Cleaners Craft for Flowers with Glue Gun</h3>
+                <p>This all-in-one pipe cleaners flower making kit includes 400 colorful chenille stems in Pink, Light Purple, Yellow, Red, and Green, 1 glue gun,4 glue sticks,25 floral wires,2 floral tapes, 100 realistic stamens, 1 roll of ribbon</p>
+                <a href="https://amzn.to/4qV8okD" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/710Ussqb9uL._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>500pcs Pipe Cleaners Craft for Flowers</h3>
+                <p>This all-in-one pipe cleaners flower making kit includes 500 colorful chenille stems in Golden Yellow, Mustard Yellow,Marigold Yellow,Orange,and Green,2 glue sticks,25 floral wires,2 floral tapes, 100 realistic stamens, 1 roll of ribbon</p>
+                <a href="https://amzn.to/49ZDRel" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/71osVOGWeAL._AC_SL1500_.jpg" alt="Sunflower">
+                <h3>220Pcs Pipe Cleaners Craft with String Light</h3>
+                <p>Pipe Cleaner Flower Kit - You will receive 200 pieces pipe cleaners bulk (100pcs each in pink jade and green), 20 pieces flower poles, gardening tape, ribbon, beautiful wrapping papers and 3m string light.</p>
+                <a href="https://amzn.to/4k3DTGH" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/71qth9wNRIL._AC_SL1500_.jpg" alt="Sunflower">
+                <h3>Pipe Cleaner Flower Bouquet DIY Kit - 350+ pcs Chenille Stems</h3>
+                <p>COMPLETE PIPE CLEANER FLOWER KIT - No extra supplies needed! Make 2-3 bouquets with 310+ fuzzy pipe cleaners (6 colors), 40 white flower stems, 1 floral tape roll & 4 hot glue sticks(Note: Not including glue gun).</p>
+                <a href="https://amzn.to/3M7oYP4" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/815rvSyqopL._AC_SL1500_.jpg" alt="Sunflower">
+                <h3>
+NREDXOON Pipe Cleaner Flowers Craft Kit</h3>
+                <p>Escape the hustle and find your calm. Our pipe cleaner flower kit is more than a craft; it's your personal creative escape. Feel the satisfying texture of our extra-plush 8mm chenille stems as you twist and shape each petal. Perfect for a cozy weekend project or a digital detox after a long day.</p>
+                <a href="https://amzn.to/3O8SzYV" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/71lxHY82gXL._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>601PCS Complete Pink Pipe Cleaners Flower Kit</h3>
+                <p>This 601PCS all-in-one pipe cleaners flower kit includes 500 thick pipe cleaner flower kit in 6 soft macaron tones (light yellow, dark pink, light pink, blush pink, white, army green), a manual, 30 Floral Wires, 2 rolls of floral tape, 2 glue sticks, 1 ribbon, and 65 stamen, plus a step-by-step video tutorial.</p>
+                <a href="https://amzn.to/45yrcgZ" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/81lHngq7YmL._AC_SX679_.jpg" alt="Sunflower">
+                <h3>31PCS Golden Birthday Party Decorations Kit</h3>
+                <p>Celebrate this once-in-a-lifetime day with a golden birthday party decorations kit that glows with warmth and style. Each piece adds a hint of sparkle and sophistication, creating a beautiful setting for moments filled with joy, laughter, and shining memories</p>
+                <a href="https://amzn.to/4raPW7o" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/717xbBQ09XL._AC_SL1500_.jpg" alt="Sunflower">
+                <h3>Norme 20 Pcs Artificial White Tulip Flowers 13.8" Valentines Bouquet </h3>
+                <p> you will get 20 pipe cleaners white tulips, about 13.78 inches/ 35 cm long, each tulip is carefully woven to create a lovely floral texture and elegant colors for Valentines wedding</p>
+                <a href="https://amzn.to/4qa6zz7" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/71txyNMnQkL._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>400PCS Gender Reveal Plates and Cups and Napkins Sets with Forks</h3>
+                <p>Complete 400PCS Gender Reveal Plates Set for Your Party: This all-in-one gender reveal plates and cups and napkins sets includes everything you need for a memorable celebration: 50 x 9-inch pink and blue plates for gender reveal (two designs), 50 x 7-inch gender reveal plates (two designs), 50 x 9 oz cups (two designs), 50 x 7.76-inch pink and blue straws, 50 x 6.5-inch gender reveal napkins, 50 x 6.3-inch plastic forks, spoons, and 50 x 6.6-inch plastic knives—all in charming blue and pink</p>
+                <a href="https://amzn.to/49ZPqCh" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/61FCscM9F4L._AC_SL1500_.jpg" alt="Sunflower">
+                <h3>
+Completed Pipe Cleaners Tulip Flowers Bouquet,</h3>
+                <p> pink pipe cleaners tulips flowers bouquet and a greeting card. The overall height of the pipe cleaners tulips bouquet is about 15.7 inches /40 cm. The bouquet contains 14 pipe cleaners artificial flowers, including tulips and daisies. The number of flowers is very rich, which looks exquisite and elegant. The flower heads of knitted tulips are very full and the colors are beautiful.</p>
+                <a href="https://amzn.to/4riOfEL" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/71whNpQk+eL._AC_SL1500_.jpg" alt="Sunflower">
+                <h3>
+Finished Pipe Cleaner Flower Bouque</h3>
+                <p>Unlike most pipe cleaner flower kits on the market, this is a fully finished bouquet, carefully handcrafted and ready to gift. No assembly, no crafting skills needed—simply unwrap and present a beautiful rose bouquet.</p>
+                <a href="https://amzn.to/4rjb23x" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/71bPldhLUHL._AC_SL1280_.jpg" alt="Sunflower">
+                <h3>
+500 Pcs Pipe Cleaners Craft，5 Colors Pipe Cleaners Bulk,</h3>
+                <p>500 Pcs Pipe Cleaners Craft，5 Colors Pipe Cleaners Bulk,Chenille Stems Flowers Craft kit for DIY Handmade Bouquet Wrapping Party Decorations whit Ribbons，Stems,Tape，Stamens, Glue Sticks (Blue)</p>
+                <a href="https://amzn.to/4k4R6id" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/71qlnEfDGgL._AC_SL1500_.jpg" alt="Sunflower">
+                <h3>
+HUEYTON DIY Lily Bouquet Making Kit with 440pcs Pipe Cleaners</h3>
+                <p> This DIY sunflower bouquet kit includes all the crafting accessories needed: 440 pipe cleaners in different colors, 52 floral wires, 10 hot glue sticks, 2 rolls of ribbon, 2 rolls of adhesive tape, as well as wrapping decorative paper and video tutorials</p>
+                <a href="https://amzn.to/4q67BMz" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/715q1f8u9uL._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>2Pcs Valentines Day Gifts Handmade Sunflower Bouquet</h3>
+                <p>Each sunflower is carefully shaped by hand using soft, colorful pipe cleaners, designed to mimic the joyful appearance of real sunflowers. They bring a bright, cheerful touch to any space and will never wilt or fade</p>
+                <a href="https://amzn.to/45zIbj5" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/81lE4BHYcPL._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>ERNTRNL Pipe Cleaners Craft - Pipe Cleaners Flower Bouquet</h3>
+                <p>This is a versatile DIY flower bouquet kit includes all the necessary accessories and a detailed video tutorial. The video covers step-by-step instructions for making roses, sunflowers, tulips, lilies, and lavender, It’s easy to understand and follow and perfect for beginners.</p>
+                <a href="https://amzn.to/4bnkbDx" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/81nWI23q8EL._SL1500_.jpg" alt="Sunflower">
+                <h3>800 PCS Pipe Cleaners Craft</h3>
+                <p>This set includes 800 pipe cleaners with 13 vibrant colors pipe cleaners, providing endless creative possibilities for all your arts and crafts endeavors. colored pipe cleaners for crafts, whether you're a professional artist, a DIY enthusiast, or a teacher, this extensive collection has you covered.</p>
+                <a href="https://amzn.to/4qQWbxm" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/61eh2oUq+OL._AC_SL1001_.jpg" alt="Sunflower">
+                <h3>ACRNIGHEET Yellow Pipe Cleaners Flower Kit</h3>
+                <p>Our pipe cleaner flower bouquet set includes 5 colors of pipe cleaner, 12 chenille stems, green tape, wrapping paper, and other necessary supplies, with which you can make a multiple colors flower bouquet set.</p>
+                <a href="https://amzn.to/4qMDfzZ" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                        <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/81q03rVEt9L._AC_SL1500_.jpg" alt="Sunflower">
+                <h3>NafuXiaJJia 600 Pcs 6-Coloured Flower Stamens for Crafting</h3>
+                <p>The accessory pack is suitable for making delicate and advanced pipe cleaner bouquets,including 50g beige pipe cleaner lace,600 pipecleaners flower stems,200 flower beads.The set comes with detailed instructions,easy to use for both beginners and experienced crafters,ideal for pipe cleaner crafters</p>
+                <a href="https://amzn.to/4qPlY9h" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                                    <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/617pWjHDnIL._AC_SL1024_.jpg" alt="Sunflower">
+                <h3>QMNWJMR 16 Set Fake Sunflower Heads with Stems</h3>
+                <p> 16 ready-made, pre-twisted pipe cleaner sunflower heads + 16 green stems, neatly organized in a color gift box for easy storage, gifting and quick replenishment, color box keeps shapes tidy in transit and on the shelf. Sunflower head size is 3in/8cm, length of each flower stem is 11.8in/30cm</p>
+                <a href="https://amzn.to/4a2u875" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+                                    <!-- <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/81Hl-PihkUL._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Sunflower">
+                <h3>Yinsun 400 Pcs Pipe Cleaners Craft Set</h3>
+                <p>This pipe cleaners craft set includes all the materials you need to make a bouquet- 400pcs 4 colors pipe cleaners, 30pcs green floral stems, 2pcs glue sticks, 50pcs stamens, 2pcs green tapes, 1pcs ribbons. It’s very suitable for beginners.</p>
+                <a href="https://amzn.to/3LTorjK" target="_blank" class="amazon-link btn-buy">Buy Now</a>
+            </div> -->
+
+            
+            
+
+
+            
+            
+        
+
+
+        </div> -->
+    <!-- </div>
+</main> -->
+
+</body>
+</html>
